@@ -1,0 +1,56 @@
+What is a PayFac Model?
+A payment facilitator, or PayFac, is a type of merchant services provider (MSP) that equips merchants with payment processing capabilities. In other words, it enables businesses to start processing electronic payments.
+
+What makes PayFacs unique as compared to other MSPs is that they own a merchant payment processing account directly with an acquiring bank. By operating as a master merchant, they are able to onboard and aggregate many “sub-merchants” under a single merchant account. 
+
+Another differentiator of payment facilitation as compared to other MSPs is that it leverages the software-as-a-service (SaaS) business model. Many of today’s PayFacs were first and foremost SaaS companies that chose to become PayFacs and embed payment processing features within their software — enabling them to offer integrated payments as an add-on service.
+
+Payment Facilitation vs. Traditional Merchant Services
+Before the advent of the PayFac model, independent sales organizations (ISOs) were the most popular type of merchant services provider. Acting as intermediaries between acquiring banks and merchants, ISOs sign up merchants with their own merchant processing accounts and resell payment software and hardware. These technologies are often third-party solutions.
+
+The ISO model thrived at a time when brick-and-mortar merchants needed a way to accept credit cards in person. But as payment processing has moved online, merchants now increasingly prefer to work with providers that offer end-to-end software solutions with built-in payment features.
+
+Key Differences: PayFacs vs. ISOs
+PayFacs and ISOs differ significantly in terms of their underlying structure and operating models. While PayFacs offer payment processing through their software platforms, ISOs are essentially reselling payment processing services. This results in vastly different onboarding experiences, pricing, and technology. 
+
+Let’s take a look at some of the key differences between the PayFac model and ISOs:
+
+Differentiator	PayFac Model	ISO Model
+Merchant onboarding timeline 	Instant account approvals	Days or weeks 
+Sign-up process	Quick and easy. The merchant provides a few basic details to their PayFac provider.	Extensive. The merchant fills out extensive paperwork in order to open their own merchant processing account.
+Cutting-edge payment technology	Extensive. PayFacs deploy out-of-box SaaS solutions and/or advanced APIs and features that can be customized and integrated into other platforms. 	Limited. ISOs don’t typically develop their own software and are thus reliant on third-party solutions that are not as customizable.
+Pricing flexibility	High. PayFacs have the ability to cater their rates to various merchant industries and risk levels — which often means more competitive rates for merchants. Rates are either interchange plus or flat rate.	Limited. ISOs typically have to abide by the payment processor’s set pricing standards. Rates are either interchange plus or flat rate.
+Upfront lift for ISVs	Medium to high. ISVs that choose to become PayFacs can typically expect to pay upwards of $2 million for upfront and first-year operating costs. Alternatively, PFaaS solutions offer a more cost-effective PayFac route.	Low. By partnering with an ISO, ISVs are able to harness existing technologies and outsource operational functions — greatly reducing the scope of development and staffing requirements.
+Revenue flexibility	High. As a payment facilitator, the ISV has a sole stake in all revenue earned through processing fees.	Low. The ISV does not have control over pricing strategy, and revenue is split with the ISO.
+The Shift Toward Embedded Payments
+To fully grasp the newfound popularity of the PayFac model, it’s helpful to understand the technological advancements that have spurred on this growth. Thanks to innovations in cloud-based technology and the proliferation of APIs, it’s now easier than ever for non-payment software companies to integrate payment features within their platforms. 
+
+This tactic is known as embedded payments, and it’s a necessary component of the PayFac model. By harnessing built-in payment features, SaaS companies are able to own the payment experience and even operate as full-fledged merchant service providers. 
+
+As the embedded payment approach rapidly circulates through the software world, customers have increasingly come to expect an embedded payment experience — typified by successful case studies like Mindbody and Uber. And in response, more merchants are offering embedded payments via their software provider. In fact, a recent survey by McKinsey & Co. found that nearly 50 percent of small businesses now use independent software vendors (ISVs) as payment providers, and another 15 percent are in the process of transitioning to an ISV provider.
+
+Why Become a PayFac? PayFac Benefits
+The PayFac model doesn’t only benefit merchants. There are many SaaS payment facilitator advantages and SaaS PayFac benefits for small businesses. By choosing to become a PayFac, SaaS companies and ISVs can enjoy incredible revenue-earning opportunities and greater control over the end-user experience. The following are some top reasons why software companies choose to become PayFacs:
+
+Payment monetization
+The first of many PayFac benefits for SaaS businesses is payment monetization. Payment monetization refers to the strategy of profiting from payment processing activity. PayFacs make money by earning a portion of all processing fees, creating an additional revenue stream for their business. In fact, data reveals that PayFacs can earn up to five times more revenue per customer! 
+
+Improved merchant experience
+As PayFacs, software companies can embed custom payment features and checkout flows that vastly improve the overall end-user experience. With the ability to more easily customize their product for specific industries or use cases, they can more effectively expand their target market. 
+
+Additionally, the PayFac model can offer merchants a much simpler account onboarding process. When PayFacs utilize automated underwriting tools, they are able to instantly onboard clients under their master account through a convenient online onboarding process. This is a lot easier for merchants than having to fill out extensive paperwork and wait days to weeks to obtain a processing account with a bank.
+
+Competitive edge
+The number of SaaS solutions on the market is booming, with some industries particularly oversaturated. Within this environment, today’s SaaS providers must find new ways to boost their competitive standing and expand their customer base. 
+
+Offering a desirable add-on service — payments — is a great way for SaaS companies to reach new customers and retain more existing customers. Just another one of the SaaS PayFac benefits.
+
+How to Become a PayFac
+Aspiring PayFacs can adopt the PayFac model in one of two ways: they can either build or buy payment facilitation technology. Building PayFac infrastructure entirely in-house is a more costly and complex process, and it also requires a lot more ongoing operational oversight. Because PayFacs take on liability for all the sub-merchants in their portfolio, they are responsible for overseeing several significant operational tasks — such as compliance, fraud monitoring, funds disbursements, and underwriting.
+
+The other path to PayFac is to buy a PayFac-as-a-Service, or PFaaS, solution. PFaaS providers like Exact Payments equip software companies with out-of-box APIs in order to embed payments — and they also take on the burden of risk management, onboarding, and customer service. This option is ideal for SaaS companies with fewer resources or a need for a faster go-to-market time.
+
+Looking to Become a PayFac?
+The PayFac model has brought a revolutionary approach to payment processing, aligning the needs of both merchants and software developers. The integration of embedded payments within software platforms has simplified transactions, enhanced user experiences, and unlocked new revenue streams. 
+
+Ready to take the next step in your PayFac journey? Now’s the time to grow your knowledge of how to become a PayFac. Learn more about this process in our blog, “How to Become a PayFac: A Roadmap for Software Developers.”

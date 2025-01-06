@@ -1,0 +1,214 @@
+PayFac Dynamic Payout Daily Operations
+Guide
+This document is intended for use by operations and financial professionals to assist with day-to-day monitoring
+and management of the Worldpay Dynamic Payout funding model. Use this document after completing your
+integration and certification testing and have started processing live transactions.
+To complete the daily steps outlined in this guide, you’ll use the following Worldpay eCommerce products and
+tools:
+• Scheduled Secure Reports (SSR) Service - an automated service designed to create one or more
+predefined reports and make them available in your merchant FTP account for retrieval.
+• eCommerce iQ Merchant Reporting and Analytics - a simple to use, web-based interface that allows you
+to access a wide variety of financial data and reports for transactions processed through Worldpay.
+• cnpAPI - the data format used for payment processing with Worldpay, as well as funds distribution via
+Dynamic Payout.
+For comprehensive information about the features and services mentioned in this guide, see the following
+Worldpay eCommerce technical documents:
+• Worldpay eComm Scheduled Secure Reports Reference Guide
+• Worldpay eComm iQ Reporting and Analytics User Guide
+• Worldpay eComm cnpAPI Reference Guide
+• Worldpay eComm PayFac API Reference Guide
+• Worldpay eComm Dynamic Payout Information
+• Worldpay eComm Dynamic Payout FAQs
+• Worldpay eComm Dynamic Payout Same Day Funding FAQs
+About Dynamic Payout
+Dynamic Payout is a solution platform that controls the distribution of funds using flexible, customized instructions
+defined by the developer. The solution provides a closed-loop transaction life cycle from payment to payout.
+Putting the developer in control, payout is dependent upon submitting instructions each time a payout is required.
+Dynamic Payout requires that a balance covering the amount of each instruction be available in the developer’s
+FBO account. A developer can submit instructions as long as funds are available to meet the request. This means
+that it is not necessary to wait for the previous day’s transaction activity to be deposited as long as there is a
+reserve in the FBO account.
+Dynamic Payout funds merchants via the ACH network or Debit rails. With Dynamic Payout, merchants are
+boarded under the Payment Facilitator hierarchy and payment transactions are sent to Worldpay. Rather than
+funds being directly settled to the Payment Facilitator’s merchants for the full previous business day activity
+amount, funds from settled transactions accumulate in an FBO (For Benefit Of) account.
+Developers distribute funds to merchants by submitting a Batch file or calling an API containing Funds Transfer
+Instructions. Instructions are based upon payout agreements between Payment Facilitator and their merchants
+(daily, weekly, monthly, etc.). Worldpay processes the instructions and moves the funds from the holding account
+to the merchants. Funding can take place as early as the next day after settlement, and within minutes of sending
+in the instruction.
+The structure of Dynamic Payout Funding Instructions via Online transactions is identical to the Batch version,
+except the parent is cnpOnlineRequest instead of batchRequest. Additionally, the cnpOnlineRequest
+element includes an attribute, sameDayFunding, that allows you to execute the Funding Instruction for same day
+settlement. When you set this attribute to true, the funds settle to the destination account on the same day,
+subject to certain restrictions (see Same Day Funding on page 5).
+Bank Balance: Balance of funds actually settled into the FBO Settlement Account. This is reflected in the SSR
+Dynamic Payout FBO Balance Report.
+Available Balance: Balance of funds available to use towards sending funding instructions. This balance is a real
+time balance that is reflected in the SSR Dynamic Payout Current Account Balance Report.
+Bank Rejects/Returns: When a Funding Instruction (ACH) is returned or rejected by either sending or receiving
+bank. Corresponding funding instructions are be reversed with new transaction.
+Activity Date: The date in which the transaction was sent to the network (VI/MC/DI/AX) or financial institution
+(EC/Funding Instructions).
+Bank Settlement Date: Bank business day that funds settle into affected bank account.
+Available Date: The day funds are counted towards the available balance.
+FBO Settlement Account: Bank account where payment processing funds settle to and all funding instructions
+are initiated through.
+Reserve Account: This is the bank account that a Payment Facilitator can use to hold reserves on their
+merchants. Money moves in and out of this account only through the use of Funding Instruction Credits and
+Debits.
+Check Payment Account: Bank Account that you can move money into and out of using FICC and FICD.
+Approved third party vendors such as Bill.com use this account to pull funds to cut and mail paper checks.
+Amex Account:
+This tracks the amount Worldpay has advanced to you in the case of American Express conveyed if you are a
+Payment Facilitator for whom Worldpay conveys Amex transactions (no servicing or settlement) and who uses our
+Dynamic Payout product to settle funds to your sub-merchants. In these cases, the Payment Facilitator, via a
+Bank Assignment Letter provided to Amex, instructs Amex to deposit settled funds to Worldpay. In turn, the
+Payment Facilitator agrees to disburse those funds, less their fees, to the sub-merchant using out Dynamic
+Payout product.
+As Worldpay receives the funds from Amex, we make it available to you same-day in your Projected and
+Available FBO Settlement Balance. Once confirmed by the bank the next business day, it is also attributed to your
+FBO Settlement Account.
+NOTE: The pre-funding feature for Amex conveyed merchants is deprecated and no longer offered
+to new merchants. Contact your Partner Relationship Manager for additional information.
+PayFac Dynamic Payout Daily Operations Guide
+© 2020 FIS and/or its affiliates. All rights reserved.
+Document Version 2.6
+14
+Scheduled Secure Reports (SSR)
+In addition to the required PayFac reports listed in the Determine the Correct Pay-Out Amounts step, there are
+many reports available via SSR that you can use to track transactional data, chargebacks, and to assist in
+reconciliation operations. Some of these reports are:
+• Net Settled Sales by Transaction Report - includes all settled and conveyed transactions (deposits and
+refunds), including Direct Debit transactions. The report can be scheduled based upon either Activity (post) or
+Settlement (funds transfer) day. For Enterprise (ISO 8583/610/Express), this is handled by the eMAF file.
+• Session Report - includes all transactions for a particular activity post day and allows reconciliation against
+submitted transactions. This report is run daily and is used primarily for transaction reconciliation.
+• Transaction Summary Report - contains the summarized deposits and refunds submitted by the merchant
+for both settled and conveyed methods of payment, broken down by purchase currency. This report is run
+daily.
+• Activity Report - includes summarized financial data for transactions (deposits and refunds) based upon
+activity post date and broken down by Reporting Group and payment type. The report is produced either daily
+or for the previous calendar month.
+• Settlement Report - includes summarized financial data for settled transactions (deposits and refunds)
+based upon settlement (funds transfer) date and broken down by Reporting Group and payment type. The
+report is produced either daily or for the previous calendar month.
+• Chargeback Financial Report - includes detailed information about financial impacting chargeback activities
+for a given activity (post) or fund transfer (settlement) date. This report is run daily. For Enterprise (ISO
+8583/610/Express), this is handled by the CHARTS file.
+• Chargeback Status Report - provides details of all chargeback activities for a designated activity (post day)
+date or date range in the case of a monthly report. This report is run daily or monthly.
+• Fee Report - provides a detailed breakdown of all Worldpay and Passthrough (Interchange) fees associated
+with transactions. The report can be scheduled based upon either activity (post) or settlement (funds transfer)
+day. The report is produced either daily or for the previous calendar month.
+• eCheck NoC Report - provides updated account information for your use in updating your customer files,
+including bank routing numbers, account numbers, and account names. The report is produced daily and only
+applies to merchants processing Direct Debits.
+About the Dynamic Payout Current Account Balance Report
+Use the Dynamic Payout Current Account Balance Report to get your available balance per FBO, including
+FastAccess funding, inter-day draw-down Funding Instructions submitted but not yet cleared. The report SSR
+provides current balance information; no unnecessary math! No need to work hard to keep track of your inter-day
+available balance, this new SSR takes out the guesswork.
+Different from the existing Account Balance Report, this new SSR takes into account all Funding Instruction
+transactions that have occurred after the As Of Date and also provides the Last Updated time for the accounts.
+This SSR only includes FBO Accounts that are relevant to your front-end available balance reporting remaining
+balances in the settlement account, reserve account, and physical check account for a specific Dynamic Payout
+organization.
+Frequently Asked Questions
+This section contains select common questions related to Dynamic Payout daily operations.
+What is the maximum number of instructions I can submit in a single Batch?
+In general, you should keep the following recommendations and rules in mind when determining the number of
+transactions you submit in an Session/Batch file:
+• A Batch should not exceed 20,000 transactions. If the number of transaction for a single merchant exceeds
+20,000, you should create multiple batches for the same merchant, each batch containing not more than
+20,000 transactions.
+• A Batch should not contain only one transaction, unless the merchant has only one transaction for the day.
+• A Session file must never contain more than 9,999 Batches.
+• A Session file must never contain more than 1,000,000 transactions across all Batches.
+• Always allow sufficient time between your submission time and your cut-off time for the processing of the
+Session. Larger files take longer to process.
+What happens if either my Settlement account does not have sufficient available balance to
+cover the funding instructions or one of the Batches has an over balance issue? Do you reject
+the Batch?
+No. Worldpay performs a front-end check on each Funding Instruction within a Batch, as well as Online
+instructions, verifying sufficient account balances to cover the money movement from each account. If the system
+detects insufficient funds in any account impacted by the a funding instruction, Worldpay rejects the individual
+Online instruction or any individual instruction from the Batch that would result in a negative balance. The returned
+error message provides information about the account lacking funds. For examples of this situation, see Appendix
+D of the Worldpay cnpAPI Reference Guide, cnpAPI v12.1 and later.
+Do you perform dupe checks on funding instructions?
+Dupe checking for funding instructions takes place at the batch level. That is, batches submitted and accepted on
+the same day with the same totals and counts will fail dupe checking and be rejected. If you resubmit a previously
+rejected batch, it will not fail dupe checking, because the initial submission was not accepted, it is not included in
+dupe checking comparisons. If you believe we rejected a batch in error, please contact your Partner Account
+Manager, as the dupe check feature can be disabled for a particular batch, if necessary.
+NOTE: To avoid possible account balance verification issues, Worldpay recommends you submit debit
+transactions first, in a separate Session file from the credit transactions.
+Also, keep in mind that the system may not handle transactions within a Batch sequentially. This is likewise
+true for Batches within a Session, but we do handle Session files in the order sent. To guarantee sequential
+handling of Batch files, you must submit the Batch individually in Session files.
+PayFac Dynamic Payout Daily Operations Guide
+© 2020 FIS and/or its affiliates. All rights reserved.
+Document Version 2.6
+16
+Is there a way to void a submitted funding instruction?
+You can use the Funding Instruction Void transaction type to void/remove a designated instruction from a
+submitted batch of instructions provided the following conditions are met:
+• You must be coded to cnpAPI V10.1 or above.
+• Submit the Funding Instruction Void transaction prior to your cutoff time.
+• The funding instruction you wish to void must be in a Funding Instruction Batch submitted the same day as
+the void. This rule also applies to weekends.
+For example, if your cutoff time is 6:00 PM and you submit a batch of funding instructions at 2:00 PM, you have
+until 6:00 PM to submit <fundingInstructionVoid> transaction(s) to remove one or more of the submitted
+funding instructions submitted in the original batch. If you are using same day funding, you must submit a void
+prior to 11:00 AM ET.
+For additional information about other cnpAPI elements, as well as the structure and submission of Batch files,
+please refer to the latest version of the Worldpay cnpAPI Reference Guide.
+How do you calculate my available balance when executing funding instructions?
+When you submit a set of funding instructions, we calculate your available balance as PayFac Settlement Account
+current balance + Reserve Debits (from funding instructions). The total funding instruction credits must be less
+than your calculated available balance for us to execute the submitted instructions. See the examples below.
+Identify and Resolve Notices of Change (NOCs)
+Did any of your sub-merchants bank accounts change?
+Review the daily SSR report, NOC Report by ACH Return Date to determine if any bank account or other
+information changed. If you discover changes, make the necessary adjustments to your records for use with
+future funding instructions.
+Notices of Change (NOCs) are account update notices sent automatically through the ACH network by receiving
+banks to advise that account data sent in the original transaction is either incorrect or has been changed. Per
+NACHA rules, you are required to update the account information on your systems within six (6) banking days or
+prior to sending subsequent transactions for the same account, whichever is later.
+There are situations where a funding instruction can succeed, but a NOC is also issued. Depending upon the
+reason for the NOC, the receiving bank could accept the funding instruction and issue a NOC so you can correct
+your records for future instructions.
+See Table B-2, "ACH NOC Change Codes" in the Worldpay eCommerce iQ Reporting and Analytics User Guide
+for additional information. The daily NOC SSR report include these codes, as does the Transaction Detail and the
+Funding Instruction Detail screens in iQ.
+Identify and Resolve Rejects
+Did any of your merchants refuse (reject) your transfer?
+Review your rejected transfers using the SSR Funding Reject Report by ACH Return Date report. This report
+shows all returns and rejects from the previous business day and may include rejected instructions from earlier
+dates. The report includes the return date, the original date, and the attempted funds transfer date. The return
+date is the date the issuing bank processed the funding instruction. The original date is the original date of the
+NOTE: If you include a transaction over $100,000, we mark the transactions as same day, but
+processing takes place next day. Because you set the sameDayFunding flag to true, we assess fees
+for same day funding. To avoid excess fees, do not attempt to use same day funding for these
+transactions.
+PayFac Dynamic Payout Daily Operations Guide
+© 2020 FIS and/or its affiliates. All rights reserved.
+Document Version 2.6
+7
+transaction (i.e., batch or online transaction post date). The Attempted Funds Transfer Date is the date the bank
+attempted to settle funds.
+You can also use the Instruction Search tool in iQ (as shown in Figure 1) to find information on funding
+instructions processed by Worldpay, including credits and debits for Payment Facilitator, sub-merchant, reserve,
+and vendor accounts, and well as physical check credits and debits.
+The Instruction Search Results provides a color-coded list based on your search criteria, of all exact, partial, and
+mis-matched data points. Instruction Search results also include a trace number – the unique identifier of the
+funds transfer assigned by the bank. The Funding Instruction Confirmation SSR report also includes trace
+numbers.
+To navigate to the associated Instruction Detail Screen, click the Worldpay Payment ID. The Instruction Detail
+screens display comprehensive information about the selected funding instruction transaction.
+The Batch Detail report in iQ provides a detailed breakdown of transactions contained within a batch and
+includes a summary of batches in the top panel as well as a detailed data table below. From the same report
+window, you can click a link to navigate to the Batch Detail Screen and then click a link to navigate to the
+Instruction Detail Screen for further details on a Dynamic Payout funding instruction.

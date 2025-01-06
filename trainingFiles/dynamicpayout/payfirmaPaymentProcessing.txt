@@ -1,0 +1,576 @@
+Few things in life are free. Merchants sell goods and services and in
+exchange, consumers provide payments; this has been the system
+in place since cattle was the currency of choice. While the basic
+foundation of financial exchange remains the same, the payment
+world has evolved significantly. Payment processing refers to the
+automated processing of electronic payment transactions between
+merchants and consumers.
+To survive and thrive business owners must continuously adapt,
+but the ever-evolving landscape of the payment industry can seem
+complex and confusing. Payment Processing 101 provides you with
+a comprehensive overview of everything you need to know about
+payment processing.
+This eBook guides you through the oft-complex terrain that is the
+payment industry, exploring the way the landscape is changing,
+the details that facilitate payment processing, and how payment
+processing can help grow your business. 
+CASH AND CHECKS ARE DECREASING
+We live in the age of speed, convenience, and minimalism; increasingly fewer people are using cash
+and checks. A recent report found that only 11% of consumers used cash in a day, compared to 27%
+the previous year, and more than 29% hadn’t used cash in a week or more. One major contributing
+factor leading to the decline of cash is the increase of online shopping; eMarketer projects that online
+payments as a percentage of overall global retail sales is expected to increase from 7.3% this year to
+12.4% in 2019.
+Checks are antiquated and outdated; the use of checks has dropped even more dramatically than
+cash. Not only are fewer consumers using checks, but fewer merchants are accepting them due to
+high operational costs, additional paperwork, and NSF (non-sufficient funds) checks. Checks were used
+in more than $40 billion transactions in 2000 but fell to less than $20 billion in 2012. A modest 3% of
+consumers surveyed said their preferred way to pay was via check, and the majority of those were older
+consumers. The annual rate of decline in check transactions from 2009-2012 was 9.2%, compared to an
+annual growth of credit card transactions at 7.6% in the same years.
+CREDIT & DEBIT CARDS ARE INCREASING
+Cash was once king; but in recent years, the traditional paper payment has taken a back seat.
+Consumer choice is leaning towards electronic over paper payments due to convenience and speed
+- a shift driven by the onslaught of mobile payments and increased popularity of online shopping.
+On average, the global preference for cards (credit, debit, and prepaid) is 54%, compared to 39% for
+cash. Nowadays, there are enticing incentives for a consumer to sign up for a credit card: travel points,
+rewards, cash back, exclusive offers, and the list goes on. Since credit cards are accepted at a majority of
+stores worldwide, consumer convenience is another reason for the increased popularity. At the end of
+2013, there were over 8 billion credit, debit, and prepaid cards in circulation. Accepting credit cards is
+no longer a perk; it’s a necessity.
+MOBILE WALLETS ARE ON
+THE MOVE
+Where mobile apps were once a novelty, now
+“there’s an app for that”. The proliferation
+of mobile apps in modern culture is almost
+excessive (each of the Kardashians has their
+own). Nevertheless, it adequately describes
+the shift that is occurring: mobile apps are
+everywhere we turn. Today’s consumers are
+spending over 85% of their time on their
+smartphones using mobile apps. What that
+means for the payments industry is that mobile
+wallets are gaining, and will continue to gain in
+popularity.
+In the minimalist mentality of less is more,
+mobile wallets have become increasingly
+prevalent. Smartphones and other devices
+act like a contactless wallet; users can add
+credit cards to mobile wallets such as Apple
+Pay, Samsung Pay, Android Pay, and Google
+Wallet to replace them with a virtual card
+and pay with a simple tap, via NFC (near-field
+communication) technology. Mobile wallets
+will only continue to grow in ubiquity with
+technology giant Apple joining the game. Of
+consumers who currently do not use mobile
+wallets, 62% expect to use the technology
+within the next year. The proliferation of NFC
+and the advancements of technology mean
+that any device can be turned into a secure
+form of payment: Apple Watch even lets you
+pay with a simple tap of your wrist.
+With credit card payments, you don’t waste time waiting for paperbased invoices, tracking down NSF checks, and waiting for checks
+to clear the banks (which can take up to 90 days). When you accept
+credit cards, funds are generally deposited within 48 hours.
+Billing and labour overhead, such as paper, printer, and postage
+use, is reduced when you abolish hard copy invoices. On average,
+to process a check requires a high operational cost of $7.36. A Visa
+report revealed that for each $1000 transaction, the cost of dealing
+with NSF checks is $20 for small businesses and $24 for medium/
+large businesses
+Processing cash and checks not only requires more money but also
+takes more time. Time wasted with trips to the bank, managing
+accounts receivables, and chasing checks. When you accept credit
+cards, the process is automated.
+Customers are more inclined to spend larger amounts and buy
+more impulsively with credit cards. Not only is it faster, but the
+psychological pain of paying is lessened because swiping a credit
+card is more abstract than handing over cash. Industry research
+indicates that credit cards increase revenue by at least 30%.
+Accepting credit cards is more secure than cash because sensitive
+data is safely encrypted and transmitted
+When you display the credit cards you accept, your brand is
+associated with those recognizable and reputable banks in the
+minds of your customers. 
+By accepting credit cards, you can embrace eCommerce and sell
+your goods and services online; the world is your market
+If your business is accepting credit cards, customers have no reason
+to go to your competitors for a more efficient shopping experience.
+Moreover, you can take business away from the competition still
+dealing in a cash and check only world
+Name - Acquirer
+(alias: Acquiring Bank or Merchant Bank)
+Job - An acquirer takes on the risk of credit card processing.
+The acquirer solicits, underwrites, and maintains the merchant
+account. They may provide the technology, and hardware which
+enables the merchant to process the transaction.
+Examples - Chase, First Data.
+Name - Aggregator
+Job - Aggregators allow merchants to process payments
+without setting up a merchant account. They bundle several
+merchants together and allow them to process payments
+using a joint merchant account. The set-up is simple and
+straightforward.
+AGGREGATOR Examples - Square, PayPal.
+Name - Cardholders
+Job - Cardholders are consumers with credit cards used to
+purchase goods and services. They are approved by the issuing
+bank based on credit worthiness.
+Examples - Beyonce, John Smith.
+Name - Issuing Bank
+(alias: Issuer)
+Job - The issuing bank issues credit cards on behalf of payment
+brands. They provide consumers with credit cards, send credit
+card statements, and offer consumers credit. The issuer is also
+responsible for card security and compensates customers for
+losses due to fraud.
+Examples - Royal Bank, Bank of America.
+Name - Merchants
+Job - Merchants are business owners accepting payments in
+exchange for goods or services.
+Examples - Best Buy, Bob’s Cafe.
+Name - Payment Brand Networks
+(alias: Credit Card Associations, Card Brand, or Payment Brand)
+Job - Payment brand networks are colloquially known as
+credit card and debit card companies. Their job is to govern
+compliance policies pertaining to their payment cards, monitor
+processing activity, develop new products, and oversee the
+clearing and settlement of transactions.
+Examples - Visa, MasterCard.
+Name - Payment Processors (alias: ISO, Independent Service
+Organization, or Merchant Account Providers).
+Job - Payment processors negotiate processing, setup, and
+equipment rates, as well as set up the merchant account. They
+act as a middleman between merchants and acquirers. They
+may also provide the technology and hardware which enables
+the merchant to process the transaction.
+Examples - Payfirma, Moneris, Elavon.
+THE PATH OF A TRANSACTION
+AUTHORIZATION
+Authorization is the process of approving or declining a transaction before a purchase can be
+completed. When consumers purchase something, the card is swiped, inserted, or entered (in the case
+of eCommerce), and the transaction is either approved or declined immediately. But on the back end, it
+is far more complex.
+Authorization Process
+The cardholder gives the merchant their credit card for payment. The merchant terminal reads the
+card information encoded on the magnetic strip or chip.
+The merchant terminal then passes the information and transaction amount to the payment
+processor.
+The payment processor encrypts the information into an authorization request and sends it to the
+payment brand.
+The payment brand then routes the authorization request to the issuing bank for review.
+The issuing bank will approve or decline the transaction by verifying whether the card is legitimate,
+is reported lost or stolen, and has enough funds available in the account. The issuing bank then
+creates an authorization message and sends the information back to the payment brand.
+The payment brand, in turn, sends the authorization response back to the processor.
+The processor transmits the information to the merchant terminal.
+The merchant concludes the sale with the customer.
+And it all happens within seconds.
+For eCommerce, once the consumer enters their card information for payment, the processor passes
+the information onto the payment brand through a secure gateway
+CLEARING
+Clearing is the process where the transaction data is sent to the acquirer. There are two types of
+clearing. The first is dual-message which usually requires a cardholder signature authentication. Each
+authorization creates a record called electronic draft capture (EDC) and is lumped into batches to be
+processed and submitted for settlement.
+The second type of clearing, single-message, requires a PIN authentication. Single-message
+clearing occurs simultaneously with the authorization process; the information needed to post the
+transaction to the cardholder’s account is sent at the time the transaction takes place. It happens
+immediately rather than later, as is the case with dual-message clearing.
+SETTLEMENT
+Settlement is an exchange of funds between a card issuer and an acquiring bank to complete a
+cleared transaction. It is essentially when merchants are funded and when cardholders are charged.
+All debits (purchases for consumers and chargebacks/refunds for merchants) and credits (refunds
+for consumers and sales for consumers) are calculated and then the net charge appears on the
+cardholder’s statement or in the case of merchants, net funds are deposited.
+Clearing and settlement process
+1. Transaction data is sent to the acquirer.
+2. The acquirer credits the merchant’s account and submits the transaction to the credit card brand
+for settlement.
+3. The card brand facilitates settlement by paying the acquirer and debits the issuer.
+4. The issuer then posts the transaction to the cardholder account, which will show up in the
+cardholder’s monthly statement.
+5. The cardholder receives the statement and pays the bill.
+TYPES OF TRANSACTIONS
+All credit card transactions can be bucketed under two types:
+Card present: occurs when the card is physically present at the time of purchase, such as in-store
+purchases where the chip and pin, magnetic stripe, or the tap/NFC feature of the payment card is
+being used.
+Card not present: occurs when a card is not present during purchase and manually entered instead,
+such as phone-in orders or eCommerce transactions.
+CHARGEBACKS
+Chargebacks are transaction disputes and occur when a customer is unsatisfied with a service or
+product or feels the transaction is fraudulent, and goes directly to the credit card company to request
+a refund. Chargebacks protect consumers in the event of fraud, customer disputes, or technical errors
+(e.g. double charge). However, CBS reports that 86% of chargebacks are fraudulent. For example, a
+customer falsely reporting that a package was never received is considered a fraudulent chargeback.
+Merchants can dispute unjust chargebacks with the aid of their processor, but that requires time
+and money. Chargebacks are detrimental to your business because the product or service is lost, the
+transaction fee is often not refunded, and there is the possibility that you may be fined a larger fee.
+Chargebacks can lead to unnecessary churn (cancellations) and can be reduced if you follow these
+five tips.
+In one corner, we have aggregators, who
+allow merchants to accept payments
+without applying for a merchant account.
+Aggregators group several merchants
+together in an aggregation (hence
+the name) and allow them to process
+payments using one joint merchant
+account. Well-known aggregators are
+Square, Stripe, and PayPal. 
+In the other corner, we have merchant
+account providers. They provide you with
+your own merchant account, help ensure
+that you are PCI-compliant, and may
+provide the hardware to accept payments.
+Well-known merchant account providers
+are Payfirma, Global Payments, and
+First Data.
+Increased likelihood of account holds
+By removing entry barriers and allowing instant credit card processing, aggregators take on more
+risk. Aggregators assume the risk for fraud of all the merchants under their umbrella. So to offset
+the risk, they exercise extreme caution when the slightest “irregular” activity is suspected - which
+is fairly common. This means that they won’t be shy about freezing accounts without notice. Since
+aggregators removed the lengthy application process, they are not aware of unique business
+information like your typical processing amounts, so they will put your account and funding on hold to
+do their due diligence when something seems out of the norm. Sometimes the holds are only minor
+inconveniences (24-48 hours); but in other cases, they can be 30 days long; and in extreme cases, the
+account can be shut down.
+Higher fees
+By allowing a large number of merchants to process instantly and easily, aggregators increase their
+own risk. Fraudulent activity is higher in aggregators than true merchant accounts. The higher risk
+correlates with higher fees. Aggregator fees are almost always fixed - no matter how much you process.
+This means the more you process, the more fees you incur.
+Lower limits
+Aggregators have their own fees; they are charged based on gross processing volume, which means
+that your processing limits are lower than they would be with a merchant account. In addition, if you
+exceed the limit, you may be subject to holds and higher processing fees on subsequent transactions.
+Branding
+With aggregators such as PayPal and Square, their company name may appear with your business
+name on credit card statements, which creates inconsistent branding.
+PCI Compliance
+Technically, aggregators are not banks so they are not necessarily required to follow strict banking
+regulations or be PCI-compliant. 
+Longer application and approval process
+While the approval process with aggregators is instant, the process to sign up for a merchant account
+is lengthier because to mitigate risk, acquiring banks require a comprehensive understanding of your
+business to determine your eligibility for a merchant account. Because acquirers have the potential
+to lose money every time they process a credit card transaction on behalf of your business, they don’t
+hand out accounts to just anyone. Approval is dependent on factors like the risk associated with your
+business according to industry standards.
+A Plethora of fees
+Where aggregators often have simple, fixed fees, merchant account providers have a variety of pricing
+structures which can seem confusing if not communicated clearly. (See Chapter 04)
+More expensive… up to a point
+There can be monthly fees and contracts with merchant account providers. For smaller businesses,
+those additional fees may not make sense if the business isn’t processing much in the way of credit card
+payments. However, once you start processing more than $40,000, you hit a ceiling where processing
+with your own merchant account will actually save you money because fees are tailored to your unique
+business and more competitive. With tailored fees, pricing is optimized based on your individual
+business (such as high and low average transaction sizes).
+AGGREGATORS
+ARE REACTIVE
+Aggregators take on the risk of all
+their merchants so they’re extra
+vigilant about potentially fraudulent
+activity. Aggregators are reactive
+because they don’t obtain your
+processing information beforehand; they
+respond accordingly to your processing
+activity as it happens. They can freeze your
+account and hold your funds if there is
+suspicious activity to assess the situation
+MERCHANT ACCOUNTS
+ARE PREVENTIVE
+Merchant account providers are
+preventive because they gather
+information about your processing
+amounts and frequencies during the
+application process. This means that
+you have little to no processing disruptions
+because your payment processor knows
+what is considered regular activity and what
+irregular activity to look out for.
+FEES
+Fees are calculated per transaction, and are aregenerally between 1% and 4%. There is also often a fixed
+dollar amount per transaction that ranges between $0.10 and $0.30. Below is an exhaustive list of the
+common fees that are charged, but keep in mind that not all payment processors will charge every fee.
+NON-NEGOTIABLE FEES DESCRIPTION
+Interchange Fee The interchange fee is what the acquiring bank pays to the
+issuing bank and is commonly referred to as "cost". This fee is set
+by the card brands and is non-negotiable. The interchange fee
+is higher for non-qualified cards than it is for qualified (basic)
+cards, and varies for the different card levels.
+Card Brand Cost/Fee
+(AKA Card Assessment
+Fee)
+This is a small fee that is non-negotiable and is paid to Visa,
+MasterCard, etc., for each transaction. It does not matter
+whether the card is premium or basic, present or not-present.
+It's a flat fee per transaction. Payment processors can choose to
+mark this up or not.
+International Fee This fee is applied when an international card is used for a
+transaction and is a non-negotiable fee. Payment processors can
+choose to mark this up or not.
+Chargeback Fee A chargeback fee is a set fee for handling disputed transactions
+either due to fraud or faulty goods/services. Different
+processors/acquirers will price chargebacks differently. There is
+no set industry fee associated with chargebacks.
+Discount Rate (AKA
+Qualified Rate or
+Merchant Discount
+Rate)
+The discount rate is a percentage that a merchant must pay to
+process a transaction where a qualified (basic) card is used. It is
+mostly made up of the non-negotiable interchange fee which
+is set by the card brands, plus a small mark-up amount which is
+set by the payment processor. A qualified card is the most basic
+credit card that has no perks, no benefits, and no points. And to
+qualify for the Discount Rate, the qualified card must be present
+during the purchase. The discount rate is calculated on a per
+transaction basis and is a percentage of the total transaction
+size. This is a negotiable rate.
+Non-Qualified Rate A non-qualified fee is added on top of the discount rate. It is
+a bundled fee associated with non-standard consumer cards
+(ie. Rewards cards, business cards, corporate cards, etc.) as
+well as cards that are not present for the transaction. This is a
+negotiable rate.
+Interchange Differential
+Fee
+The interchange differential fee is the difference between the
+base interchange rate of a card brand (standard credit card with
+no rewards, perks or benefits) and the actual interchange rate
+of the card. This is a separate fee that is added on top of the
+interchange fee.
+Transaction Fee A set network (ie. Interac, Visa, MasterCard, Amex, Discover) fee
+added to each transaction.
+PCI Compliance A fee associated with being PCI-compliant. Payment processors
+incur costs associated with being PCI-compliant and will often
+transfer those costs on to merchants in the form of monthly,
+quarterly, or annual fees.
+Statement Fees A fee associated with preparing statements. Some processors
+will charge for this service.
+Monthly Minimum Fees This varies by processor but is charged to ensure the minimum
+fees associated with the required processing volume are met.
+For example, if your minimum fees are $20/month, and your
+actual processing volume only amounted to fees of $11, you will
+be charged the difference of $9.
+Annual Fees Some processors will charge annual fees. These are often fees
+associated with PCI compliance.
+Set-Up Fees Some processors will charge a set-up or "application" fee. These
+fees will vary by processor and are negotiable.
+Cancellation Fees It varies by processor, but is a fee charged when some services
+are discontinued prior to contract end. This is negotiable.
+Interchange
+Differential
+With this pricing model,
+you pay the qualified rate,
+the non-qualified fee, if
+it’s anything other than a
+basic card, the card brand
+fee, and the interchange
+differential fee.
+Tiered
+In this pricing model, you
+pay based on which tiers
+the transaction falls into.
+There are three tiers:
+• Qualified (swiped
+ transactions),
+• Mid-qualified
+ (keyed-in transactions),
+• Non-qualified
+ (online transactions).
+With tiered pricing, fees
+are bundled within the
+tiers, and the true cost of
+each fee of a transaction is
+not disclosed.
+Billback / ERR
+(Enhanced Recover
+Reduced)
+This pricing model
+consists of a flat rate
+and a second charge for
+all non-qualified cards.
+Essentially, a merchant
+pays the qualified rate on
+the first statement then
+is billed back for nonqualified cards; the second
+charge always shows up in
+the next statement. Since
+this pricing structure is
+a lump sum, it is hard to
+break down the cost of a
+transaction.
+Interchange Plus /
+Cost Plus
+For the interchange plus
+pricing model, you pay
+the interchange rate
+of the card plus a fixed
+percentage, which can be a
+mixture of additional fees.
+This is known to be the
+most transparent pricing
+structure.
+Flat
+Pricing models can be
+difficult to grasp, which is
+why some providers, such
+as aggregators like Square,
+offer a flat rate pricing
+model. No matter the type
+of card and transaction,
+you will always pay a fixed
+percentage. The downside
+of this pricing structure is
+the cost; when you process
+larger amounts, you end
+up paying a substantial
+amount in fees.
+PCI COMPLIANCE
+Along with payment card industry growth
+comes a surge in technology crimes, which leads
+to stricter, more complex standards. PCI DSS
+(Payment Card Industry Data Security Standard)
+was put into place by the Security Standards
+Council, comprised of the five major credit card
+companies: Visa, MasterCard, Amex, Discover, and
+JCB. PCI Compliance is a set of 12 requirements
+that ensure a safe environment to process credit
+card payments:
+1. Install and maintain a firewall configuration to protect cardholder data.
+2. Do not use vendor-supplied defaults for system passwords and other security parameters.
+3. Protect stored cardholder data.
+4. Encrypt transmission of cardholder data across open, public networks.
+5. Protect all systems against malware and regularly update anti-virus software or programs.
+6. Develop and maintain secure systems and applications.
+7. Restrict access to cardholder data by business need to know.
+8. Identify and authenticate access to system components.
+9. Restrict physical access to cardholder data.
+10. Track and monitor all access to network resources and cardholder data.
+11. Regularly test security systems and processes.
+12. Maintain a policy that addresses information security for all personnel.
+Compliance is enforced by the card brands. All merchants must comply or else face fees, penalties, or
+account termination. Constant security checks are required to ensure that risks are identified and fixed. 
+Acquirer: An acquirer solicits, underwrites, and maintains the merchant account. They may provide the
+technology that allows the merchants to process transactions, take on chargeback risk of a business, and deposit
+funds into a merchant’s bank account.
+Aggregator: A service provider through which merchants can process their payment transactions without a
+merchant account.
+Annual Fee: This fee is often associated with PCI compliance.
+Application Fee: This is another one-time fee charged for processing the application.
+Authorization: The process by which a transaction is approved or declined by the issuer. Merchants use this to
+ensure a customer has sufficient funds available on their credit limit at the time the request is being made.
+Billback Pricing Model: A pricing model where a merchant pays one set rate for qualified cards then is billed
+another rate for all non-qualified cards in the next statement.
+Bitcoin: A popular form of cryptocurrency that is created and held digitally.
+Cancellation Fee: This is a fee charged when some services are discontinued prior to contract end.
+Card Brand Fee: This is a small fee that is paid to Visa and MasterCard each transaction
+Card Not Present: Transactions where the credit card is not present at the time of purchase, such as online
+purchases. Credit card data is manually entered instead of swiped.
+Card Present: Transactions where the credit card is present at the time of purchase, such as in-store purchases.
+Cardholders: Consumers with credit cards that purchase goods.
+Card Phishing: Scammers posing as a legitimate organization to obtain sensitive customer information.
+Card Skimming: The theft of payment card information used in an otherwise legitimate transaction. The thief
+can procure card numbers using manual (photocopying receipts) or electronic (using a device to swipe and store
+numbers) methods.
+Chargebacks: A return of funds to a consumer after they disputed a transaction, either due to fraud or faulty
+goods/services.
+Chargeback Fee: A chargeback fee is a set fee for handling disputed transactions either due to fraud or faulty
+goods/services.
+Check: An order for the transfer of money.
+Churn: The rate that you are losing customers.
+Payment Processing 101
+51
+Clearing: Activity from the time a commitment is made for a transaction until it is settled. Clearing turns the
+promise of payment into an actual movement of money from one bank to another.
+Cost Plus Pricing Model: See Interchange Plus Pricing Model.
+Credit Card: A plastic card with a credit limit used to purchase goods and services.
+Credit Card Fraud: Theft and fraud committed using or involving a credit and debit card. It is either theft of the
+actual card or sensitive card information and then the use of either without the knowledge of the cardholder.
+Cryptocurrency: A digital currency in which encryption techniques are used to regulate the generation of units
+of currency and verify the transfer of funds, operating independently of a central bank.
+CVV: Card Verification Value is a unique 3 or 4 digit number found on the back of a credit or debit card. It provides
+an extra layer of security to minimize unauthorized transactions.
+Debit Card: A plastic payment card that provides the cardholder electronic access to their bank account.
+Discount Rate (or Merchant Discount Rate): The fee charged by your credit card processor and paid to a
+merchant bank in exchange for being able to accept credit cards. It is calculated on a per transaction basis and
+based upon the total amount of the transaction size.
+eCommerce: Trading in products or services using computer networks, such as the Internet.
+EMV (Europay, MasterCard, and Visa): Otherwise known as chip and pin. It is a global standard for credit and
+debit card payments based on chip card technology.
+ERR: Stands for Enhanced Recover Reduced. See Billback Pricing Model.
+Flat Fee: A pricing model that has a fixed fee regardless of card type, business type, and transaction type. This is
+the fee type for aggregators.
+Fraud: When a customer does not initiate or has no knowledge of the transaction.
+Interchange: Interchange is what the acquiring bank pays to the issuing bank. Each type of credit card has a
+different interchange rate set by the card brands.
+Interchange Differential Pricing Model: With this pricing model, you pay the qualified rate, the non-qualified
+fee, if it’s anything other than a basic card, the card brand fee, and the interchange differential fee.
+Interchange Differential Fee: The interchange differential fee is the difference between the interchange rate of a
+premium or non-qualified card (i.e. cash back credit card) and the interchange rate of a qualified card.
+Interchange Plus Pricing Model: A pricing model that consists of the interchange rate of the card plus a fixed
+percentage.
+International Fee: This fee is applied when an international card is used for a transaction.
+ISO (Independent Service Organization): Also known as payment processors. They solicit businesses for
+merchant services. They work with an Acquirer who facilitates the settlement of transactions into the merchant
+account. ISOs set up the merchant account and negotiate fees.
+Payment Processing 101
+52
+Issuing Bank (Issuer): A bank or financial institution that provides credit and a physical credit card to the
+customer. They are responsible for approving and declining transactions, billing, and collecting the owed funds
+from the customer.
+Line Busting: Abolishing line-ups.
+Merchant: A company accepting payment cards in exchange for goods or services.
+Merchant Account: A type of bank account that allows businesses to accept payments by payment cards,
+typically debit or credit cards. It is established under an agreement between an acceptor and a merchant
+acquiring bank for the settlement of payment card transactions.
+Mobile Payments: Payments accepted on a mobile device or a payment made on a mobile device.
+Mobile Wallet: An electronic device that allows an individual to make electronic transactions.
+Monthly Minimum Fee: A fee that is charged if a certain transaction total for the month or year is not reached.
+Multichannel: Providing customers multiple payment channels to choose from.
+NFC (Near Field Communication): The technology that allows the transfer of information when two enabled
+devices are in close proximity through radio waves.
+Non-qualified: Any card that is not a standard no perks, no benefits card that is present when and where the
+transaction takes place.
+Non-qualified Fee: This is a bundled fee associated with non-standard consumer cards and cards that are not
+present for the transaction.
+Omni-channel: Omni-channel refers to providing a holistic experience for the many ways consumers interact
+with you. For payments, this means providing multiple integrated methods for your customers to pay.
+Payment Brand Networks: Credit card and debit card companies. Their role is to govern compliance policies
+pertaining to the bank cards, monitor processing activity, develop new products, and oversee the clearing and
+settlement of transactions. Examples are Visa and MasterCard.
+Payment Gateway: It facilitates the transfer of information between a payment portal (website, mobile phone)
+and the processor (Payfirma).
+Payment Processor: Organizations that partner with an acquirer to open merchant accounts, handle support,
+manage payment processing, and build technology on behalf of acquirers.
+PCI DSS (Payment Card Industry Data Security Standard) or PCI Compliance: A set of requirements that
+ensure all merchants that come into credit card information maintain a secure environment.
+PCI (Payment Card Industry) Fee: The PCI fee is paid to the Payment Card Industry, either for non-compliance or
+compliance.
+Payment Processing 101
+53
+POS (Point of Sale): The location where payment is accepted. This is often referred to as checkout.
+Qualified: A baseline credit card that is a standard, no perks, no benefits card that is present when and where the
+transaction takes place.
+Recurring Billing (subscription billing): Automatic and periodic payment under a pre-authorized agreement for
+an ongoing product or service.
+Refund: A credit issued by the merchant back to a customer when a customer returns a product.
+Reporting: Analytics and statistics on your payment information.
+Set-up Fee: This is a one-time fee charged for the set-up of a specific product or service like an eCommerce setup fee.
+Settlement: An exchange of funds between a card issuer and an acquiring bank to complete a cleared
+transaction
+Statement: A fee associated with preparing statements.
+Subscription Billing: see recurring billing.
+Tablet POS: A completely functional POS system on a tablet.
+Tiered: A pricing model in which the rates are structured in tiers. You pay different rates for different types of
+cards.
+Traditional Terminal: A physical wired or wireless terminal that allows you to accept debit and credit card
+payments.
+Transactions Fee: This fee is charged for every credit card transaction.
+Virtual Terminal: A virtual terminal that acts like a POS system by allowing you to accept credit cards through
+your web browser.
+Web Terminal: See Virtual Terminal.
