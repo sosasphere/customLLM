@@ -1,4 +1,4 @@
-# HackathonAuroraBorealias
+# customLLM
 
 CUDA Debugging:
 
